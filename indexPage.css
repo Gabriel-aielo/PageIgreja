@@ -1,0 +1,224 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 100%;
+    background-image: linear-gradient(120deg, #e4e2e2 0%, #dadbdb 100%);
+    overflow-x:unset;
+}
+
+p{
+    text-align: justify;
+}
+.pAlign{
+text-align: center;
+}
+
+
+/*New page*/
+.bg-lightCustom{
+    background-color: #fff;
+}
+
+.bgTop{
+    background-image: url(./img/22416d74fb36ecc5e064b82daf6a5c6b.jpg);
+    background-position: center center;
+    /*filter: blur(4px);*/
+    
+}
+.bgTop::before{
+    content: "Aqui esta o before";
+}
+.imgBanner{
+    border-radius: 10px;
+}
+.borderRadius{
+
+    border-radius: 10px;
+}
+.borderCustom{
+    border-right:1px solid rgb(197, 197, 197);
+}
+.space{
+    height: 200px;
+}
+.carousel-caption h5{
+    background-color: #0000009d;
+}
+
+.content{
+    
+    height: 50vh;
+    background-image: url(./img/doar.png);
+    background-position-x: center;
+    background-size: cover;
+}
+
+.textCustomDoar{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bgCustomBrand{
+    color: #ebebeb;
+    font-size: 15px;
+}
+.imgGaAdultos{
+    height: 20vh;
+    background-image: url(./img/gaadultos.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.imgGaJovens{
+    height: 30vh;
+    background-image: url(./img/jovens.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.jovensText{
+
+}
+
+.imgGaKids{
+    height: 45vh;
+    max-width: 100%;
+    background-image: url(./img/kids.jpeg);
+    background-size: cover;
+}
+.arrowUp{
+    font-size: 35px;
+    color: #60bb98;
+    transition: 0.3s;
+}
+
+.arrowUp:hover{
+    color: #21a06f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*old page*/
+
+
+.itensNavbar li{
+    padding: 0px 10px;
+}
+
+.itensNavbar li a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.itensNavbar li a:hover{
+    color: #60bb98;
+    text-decoration: none;
+    border-bottom: 2px solid #60bb98;
+    padding-bottom: 3px;
+}
+.bgCustom1{
+    background-color: #60bb98;
+}
+
+.bgCustom1 h2{
+    font-family: 'Noto Serif', serif;
+    color: aliceblue;
+
+    font-size: 2.0em;
+    font-weight: 500;
+}
+
+.text1{
+    font-family: 'Noto Serif', serif;
+    color: rgb(19, 19, 19);
+    text-align: justify;
+
+    font-size: 1.05em;
+    
+}
+
+.titleUl{
+    font-family: 'Noto Serif', serif;
+    font-size:1.5em;
+    font-weight:lighter ;
+}
+
+.margin{
+    height: 20vh;
+}
+
+.titleJA p{
+    text-align:justify;
+}
+.titleDE p{
+    text-align:justify;
+
+}
+
+.separation{
+    height: 15vh;
+}
+
+footer{
+    background: #e4e5e4;
+}
+.fab{
+    font-size: 2em;
+}
+.bgCustomFooter{
+    background: #d0d1d0;
+    color: #919090;
+
+}
+
+.btncustom{
+    background: #60bb98;
+    padding: 10px 20px;
+    transition: 0.3s;
+    color: #e4e5e4;
+    border: #60bb98 1px solid;
+}
+
+.btncustom:hover{
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #60bb98;
+    background: #fff;
+    border: #60bb98 1px solid;
+}
+.textCustom{
+    font-family: 'Noto Serif', serif;
+    color: aliceblue;
+
+    font-size: 2.0em;
+    font-weight: 500;
+}
+
+.imgbloco1, .imgbloco2{
+    transition: 0.3s;
+}
+.imgbloco1:hover, .imgbloco2:hover{
+    scale:1.05;
+}
+.fa-facebook{
+    color: #253bff;
+}
+.fa-instagram{
+    color: #ff2f85;
+}
+
